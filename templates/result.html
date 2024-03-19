@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Prediction Result</title>
-</head>
+  <meta charset="UTF-8">
+  <title>Prediction Result</title>
+  <link rel="stylesheet" href="style.css"> </head>
 <body>
-<h1>Prediction:</h1>
-<p>The model predicts: {{ prediction }}</p>
+  <div class="prediction-result">
+    <h1>Prediction Result:</h1>
+    <p>The model predicts: <span id="prediction">{{ prediction }}</span></p>
+  </div>
 </body>
 </html>
